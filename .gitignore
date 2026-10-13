@@ -1,0 +1,49 @@
+/done
+/LIVECell_dataset_2021
+LICENSE
+/aws
+__pycache__/
+*.zip
+*.whl
+*.csv
+*.pkl
+*.tsv
+*.fasta
+*.clstr
+# ---------- python ----------
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ---------- environments ----------
+.venv/
+venv/
+.env
+.env.*
+*.conda
+*.mamba
+
+# ---------- logs & caches ----------
+*.log
+logs/
+wandb/
+mlruns/
+runs/
+checkpoints/
+outputs/
+tmp/
+.cache/
+
+# ---------- jupyter ----------
+.ipynb_checkpoints/
+
+# ---------- OS / IDE ----------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

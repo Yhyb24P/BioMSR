@@ -25,7 +25,7 @@ class MicroscopyDataset(Dataset):
         data_range (float): 归一化范围，通常为 65535.0 (16-bit) 或 255.0 (8-bit)。
     """
     def __init__(self, lr_dir, hr_dir=None, is_train=True, 
-                 patch_size=128, upscale_factor=2, 
+                 patch_size=512, upscale_factor=2, 
                  transform=None, noise_aug=None, data_range=65535.0):
         super(MicroscopyDataset, self).__init__()
         
